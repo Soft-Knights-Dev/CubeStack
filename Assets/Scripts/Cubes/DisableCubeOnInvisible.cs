@@ -20,6 +20,7 @@ namespace Cubes
             {
                 _info.Cube.SetActive(false);
                 GameManager.Instance.RemoveCube(_info);
+                transform.parent = null;
             }
         }
     }

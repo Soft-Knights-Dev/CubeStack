@@ -5,9 +5,9 @@ public class ExitGame : MonoBehaviour
 {
     private void Awake()
     {
-        #if UNITY_WEBGL
-        gameObject.SetActive(false);
-        #endif
+       #if UNITY_WEBGL
+       gameObject.SetActive(false);
+       #endif
     }
 
     public void Exit()
